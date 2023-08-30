@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.flexbox {
+  display: flex;
+  border: 1px solid black;
+  height: 100vh;
+  /* width: 100%; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(/images/background.jpg.JPG);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-size: cover;
+}
+.flexbox section {
+  border: none;
+  background-color: white;
+  height: 290px;
+  width: 23vw;
+  /* flex-basis: 23%; */
+}
+section img {
+  height: 75%;
+  width: 100%;
+}
+section p {
+  text-align: center;
+  font-weight: 2px;
+}
